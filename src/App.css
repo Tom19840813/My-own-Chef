@@ -1,0 +1,165 @@
+.navbar {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--sage-deep);
+}
+
+.intolerance-badge {
+  background: var(--white);
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d16b6b;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding: 4rem 0;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  color: var(--sage-deep);
+}
+
+.search-container {
+  position: relative;
+  background: var(--white);
+  padding: 0.5rem;
+  border-radius: 100px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  font-family: inherit;
+  outline: none;
+  background: transparent;
+}
+
+.search-button {
+  background: var(--sage-deep);
+  color: white;
+  padding: 0 2rem;
+  font-weight: 600;
+}
+
+.search-button:hover {
+  background: var(--sage-light);
+}
+
+.hero-visual {
+  height: 500px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.hero-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recipe-area {
+  padding: 4rem 0;
+}
+
+.recipe-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.recipe-card {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 3rem;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.recipe-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.meta-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  background: #f0f2f0;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: var(--text-soft);
+}
+
+.ingredient-list {
+  list-style: none;
+}
+
+.ingredient-item {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy-btn {
+  font-size: 0.75rem;
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid var(--gold);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.instruction-step {
+  margin-bottom: 1.5rem;
+}
+
+.step-num {
+  font-weight: 700;
+  color: var(--sage-deep);
+  margin-right: 10px;
+}
+
+@media (max-width: 968px) {
+
+  .hero,
+  .recipe-card {
+    grid-template-columns: 1fr;
+  }
+}
