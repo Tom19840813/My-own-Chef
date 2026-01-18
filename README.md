@@ -1,16 +1,56 @@
-# React + Vite
+# 🧑‍🍳 My Own Chef AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![My Own Chef AI Banner](./public/banner.png)
 
-Currently, two official plugins are available:
+## ✨ Overview
+**My Own Chef AI** is a hyper-personalized culinary assistant designed to bridge the gap between complex dietary requirements and gourmet home cooking. Built specifically to handle food intolerances identified via clinical testing (like the YorkTest), it ensures every meal is safe, delicious, and perfectly tailored to your body.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛡️ The Intolerance Guard
+This application is more than just a recipe book. It features an active **Intolerance Guard** that silences dangerous ingredients before they ever reach your plate. 
 
-## React Compiler
+**Currently optimized for Joanne's Profile:**
+- 🚫 **Strict Avoidance**: Yeast, Cow's Milk, Goat's Milk, Egg Whites, and Cranberries.
+- ⚠️ **Smart Monitoring**: Wheat, Gluten, Curry Powder, and Nutmeg.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Key Features
+- **Intelligent Filtering**: AI-driven recipe generation that automatically substitutes or removes allergens.
+- **Zen Kitchen UI**: A serene, premium interface designed for a focused and enjoyable cooking experience.
+- **Smart Ingredient Sourcing**: One-click shopping links for every ingredient, searching the web for the best local or online stores.
+- **Nutrition Logic**: Prioritizes nutrient density and Vitamin D pairing with non-dairy calcium sources.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Frontend**: React.js with Vite
+- **Styling**: Vanilla CSS (Custom Zen Design System)
+- **Typography**: Playfair Display (Serif) & Quicksand (Sans-serif)
+- **AI Brain**: Tailored prompting logic for allergy-safe culinary architecture.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tom19840813/My-own-Chef.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd My-own-Chef
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🎨 Design Philosophy
+The "Zen Kitchen" aesthetic uses a palette of **Sage Green**, **Bone White**, and **Gold Accents** to create a calm environment, reducing the stress often associated with managing food intolerances.
+
+---
+
+*Designed & Developed by Antigravity AI Assistant*
